@@ -14,6 +14,7 @@ import "@pnp/sp/batching";
 let _sp: SPFI = null;
 
 // Using sp through out the web part
+// getSP is used to get all the SharePoint context, the parameter is WebPartContext
 export const getSP = (context?: WebPartContext): SPFI => {
     if (_sp === null && context !== null) {
         // You must add the @pnp/logging package to include the PnPLogging
