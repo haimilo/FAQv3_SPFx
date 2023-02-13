@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "fa-qv-3-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/faQv3/FaQv3WebPart.js",
+          "manifest": "./src/webparts/faQv3/FaQv3WebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "FaQv3WebPartStrings": "lib/webparts/faQv3/loc/{locale}.js"
+  }
+}
